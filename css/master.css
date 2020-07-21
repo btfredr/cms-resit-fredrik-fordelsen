@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body, html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.background-container {
+    padding-top: 20px;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: 320px){
+      .background-container{
+        min-width: 100%;
+        min-height: 100%;
+        display: block;
+  
+      }
+  }
+
+  .postWrapper {
+    border: 1px solid #F5F5F5;
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFAFA;
+    height: 100%;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 5%;
+    box-shadow: 3px 5px 3px 1px grey;
+    padding: 1em;
+  }
+
+  .myPosts {
+      list-style: none;
+      padding: 1em;
+
+  }
