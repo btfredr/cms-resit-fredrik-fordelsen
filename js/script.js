@@ -9,7 +9,6 @@ fetch(url)
             `
             <li>
                 <h1>${post.title.rendered}</h1>
-                <h4>Author: ${post.author}</h4>
                 ${post.excerpt.rendered}
                 <a href="${post.link}">Read More</a>
                 <p>Published on: ${post.date}</p>
